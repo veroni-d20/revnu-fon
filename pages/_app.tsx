@@ -14,10 +14,10 @@ import "@/styles/index.scss";
 const dotenv = require("dotenv");
 dotenv.config();
 
-const pegoTestNet = {
-  id: 123456,
-  name: "PEGOTestNet",
-  network: "PEGO Testnet",
+const fonMainnet = {
+  id: 201022,
+  name: "FONSmartChain",
+  network: "FON Chain",
   iconUrl:
     "https://cdn.dorahacks.io/static/files/188c028468557368d12717c46b1bd63e.jpg",
   iconBackground: "#fff",
@@ -27,20 +27,19 @@ const pegoTestNet = {
     decimals: 18,
   },
   rpcUrls: {
-    public: { http: ["https://rpc.pegotest.net"] },
-    default: { http: ["https://rpc.pegotest.net"] },
+    public: { http: ["https://fsc-dataseed1.fonscan.io"] },
+    default: { http: ["https://fsc-dataseed2.fonscan.io"] },
   },
   blockExplorers: {
-    default: { name: "pegoscan", url: "https://scan.pegotest.net/" },
+    default: { name: "fonscan", url: "https://fonscan.io" },
   },
-  testnet: true,
 };
 
 export default function App({ Component, pageProps }: AppProps) {
   const [ready, setReady] = useState(false);
 
   const { publicClient, chains } = configureChains(
-    [pegoTestNet],
+    [fonMainnet],
     [publicProvider()]
   );
 

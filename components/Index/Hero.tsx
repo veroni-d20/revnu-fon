@@ -33,12 +33,12 @@ export default function Hero() {
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-zinc-400 ring-1 ring-white/10 hover:ring-white/20">
                 Revnu is powered by{" "}
                 <a
-                  href="https://pego.network/"
+                  href="https://fonscan.io/"
                   className="font-semibold text-white"
                   target="_blank"
                 >
                   <span className="absolute inset-0" aria-hidden="true" />
-                  Pego Network <span aria-hidden="true">&rarr;</span>
+                  FONSmartChain <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Hero() {
                   <span className="text-primary-600">
                     Like, Comment & Subscribe
                   </span>{" "}
-                  while earning Pego tokens!
+                  while earning FON tokens!
                 </div>
               </div>
               <p className="mt-6 text-lg leading-8 text-zinc-300">
