@@ -38,7 +38,7 @@ export default function Bounties() {
     <>
       <Head>
         <title>
-          Dashboard - Revnu | Like, Comment & Subscribe to earn Pego tokens
+          Dashboard - Revnu | Like, Comment & Subscribe to earn FON tokens
         </title>
       </Head>
 

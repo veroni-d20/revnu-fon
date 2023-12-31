@@ -6,7 +6,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Revnu | Like, Comment & Subscribe to earn Pego tokens</title>
+        <title>Revnu | Like, Comment & Subscribe to earn FON tokens</title>
       </Head>
 
       <Layout>

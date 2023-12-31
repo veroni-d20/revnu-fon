@@ -10,7 +10,7 @@ export default function Privacy() {
     <>
       <Head>
         <title>
-          Privacy Policy - Revnu | Like, Comment & Subscribe to earn Pego tokens
+          Privacy Policy - Revnu | Like, Comment & Subscribe to earn FON tokens
         </title>
       </Head>
 

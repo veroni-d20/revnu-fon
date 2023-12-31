@@ -30,12 +30,6 @@ const config: HardhatUserConfig = {
       url: "https://polygon-mumbai-bor.publicnode.com	",
       accounts: [process.env.PRIVATE_KEY || ""],
     },
-    // Network name: PEGO Mainnet Chain ID: 20201022 Currency Symbol: PG RPC node: pegorpc.com node1.pegorpc.com node2.pegorpc.com node3.pegorpc.com
-    // sepolia: {
-    //   url: SEPOLIA_RPC_URL,
-    //   accounts: [PRIVATE_KEY],
-    //   chainId: 11155111,
-    // },
   },
   solidity: {
     version: "0.8.9",

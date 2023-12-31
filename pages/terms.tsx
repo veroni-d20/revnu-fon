@@ -10,7 +10,7 @@ export default function Terms() {
     <>
       <Head>
         <title>
-          Terms of Service - Revnu | Like, Comment & Subscribe to earn Pego
+          Terms of Service - Revnu | Like, Comment & Subscribe to earn FON
           tokens
         </title>
       </Head>

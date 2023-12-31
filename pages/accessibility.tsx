@@ -10,7 +10,7 @@ export default function Accessibiity() {
     <>
       <Head>
         <title>
-          Accessibility - Revnu | Like, Comment & Subscribe to earn Pego tokens
+          Accessibility - Revnu | Like, Comment & Subscribe to earn FON tokens
         </title>
       </Head>
 
