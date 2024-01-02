@@ -30,6 +30,14 @@ const config: HardhatUserConfig = {
       url: "https://polygon-mumbai-bor.publicnode.com	",
       accounts: [process.env.PRIVATE_KEY || ""],
     },
+    fsc: {
+      chainId: 201022,
+      allowUnlimitedContractSize: true,
+      gas: 2100000,
+      gasPrice: 8000000000,
+      url: "https://fsc-dataseed1.fonscan.io",
+      accounts: [process.env.PRIVATE_KEY || ""],
+    },
   },
   solidity: {
     version: "0.8.9",
